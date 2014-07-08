@@ -7,8 +7,7 @@ module.exports = function (include) {
       actions:
       {
         index : function (req, res) {
-          var thing = include("thing");
-          res.send('list');
+          res.send('list ' + include("datetime"));
         },
         show : function (req, res) {
           res.send('show');
