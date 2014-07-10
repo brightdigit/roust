@@ -13,13 +13,13 @@ module.exports = function (include) {
           res.send('show');
         },
         create : function (req, res) {
-          res.send('show');
+          res.send('create');
         },
         update : function (req, res) {
-          res.send('show');
+          res.send('update');
         },
         destroy : function (req, res) {
-          res.send('show');
+          res.send('destroy');
         }
       }
     }
