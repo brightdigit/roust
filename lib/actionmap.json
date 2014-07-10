@@ -1,0 +1,20 @@
+{
+  "index": {
+    "verb" : "get"
+  },
+  "show": {
+    "verb" : "get",
+    "id" : true
+  },
+  "create": {
+    "verb" : "post"
+  },
+  "update": {
+    "verb" : "put",
+    "id" : true
+  },
+  "destroy": {
+    "verb" : "delete",
+    "id" : true
+  }
+}
