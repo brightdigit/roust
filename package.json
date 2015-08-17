@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "prerelease": "alpha",
   "description": "express rest api routing engine",
-  "main": "server",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/leogdion/roust.git"
